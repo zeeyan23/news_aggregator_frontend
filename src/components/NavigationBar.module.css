@@ -1,0 +1,58 @@
+.navlinks{
+    margin-left: 80%;
+}
+#btnStyle{
+    margin-left: 70%;
+}
+
+.offcanvas .offcanvas-body .userEditForm{
+    box-shadow: none;
+}
+/*small devices */
+@media only screen and (max-width: 600px) {
+    
+    #btnStyle{
+        margin-left: 0px;
+    }
+    .resnavbar{
+        width: fit-content;
+    }
+    #link{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 10px;
+    }
+    #btn{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 10px;
+    }
+    /*  */
+}
+
+/*portrait tablets*/
+@media only screen and (min-width: 600px) {
+    #btnStyle{
+        margin-left: 0px;
+    }
+    .resnavbar{
+        width: fit-content;
+    }
+    #link{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 10px;
+    }
+    #btn{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 10px;
+    }
+    
+}
+
+/*landscape tablets */
+@media only screen and (min-width: 768px) {
+    
+    
+}

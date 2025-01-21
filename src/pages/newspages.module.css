@@ -1,0 +1,16 @@
+.custom-placeholder::placeholder {
+    color: rgb(255, 255, 255); /* Change to your preferred color */
+  }
+  
+  .descriptionText{
+    font-size: small;
+  }
+
+
+.wrap {
+    position: fixed;
+    width: -webkit-fill-available;
+    z-index: 1000;
+    background-color: black;
+    padding: 1%;
+}

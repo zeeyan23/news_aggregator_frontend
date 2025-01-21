@@ -1,0 +1,13 @@
+.descriptionText{
+    font-size: small;
+  }
+  
+
+  .listContainer{
+    padding-top: 3rem;
+}
+@media (max-width: 576px) {
+    .listContainer{
+        padding-top: 5rem;
+    }
+}

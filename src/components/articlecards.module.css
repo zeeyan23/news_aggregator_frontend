@@ -1,0 +1,22 @@
+.descriptionText{
+    font-size: small;
+  }
+
+.custom-card{
+  height: 150px;
+}
+  @media (max-width: 576px) {
+    .custom-card {
+      height: 120px; /* Adjust for smaller screens */
+    }
+
+    .custom-card .p-2 {
+      padding: 0.5rem; /* Reduce padding */
+    }
+
+    .rowContainer{
+      flex-direction: column;
+    }
+  }
+  
+  

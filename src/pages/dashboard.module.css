@@ -1,0 +1,52 @@
+.textarea{
+    width: 50%;
+    margin-top: 10em;
+}
+.formgroup{
+    width: auto;
+}
+
+.fontSize{
+    color: white;
+}
+.Alert{
+    width:fit-content ;
+    margin: 0 auto;
+    margin-top: 2em;
+    padding: 2em;
+}
+.Alert p{
+    font-weight: bold;
+}
+
+.btnStyle{
+    background-color: navy;
+    padding-left: 6em;
+    padding-right: 6em;
+    margin-left: 1.7em;
+}
+.btn{
+    /* margin: auto; */
+    margin-top: 2em;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*small devices */
+@media only screen and (max-width: 600px) {
+    .textarea{
+        width: 90%;
+        margin-top: 15%;
+    }
+    .btnStyle{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 0px;
+    }
+    .fontSize{
+        font-size: small;
+    }
+    /*  */
+}

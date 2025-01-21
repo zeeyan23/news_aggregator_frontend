@@ -1,0 +1,19 @@
+.wrap {
+    position: fixed;
+    width: -webkit-fill-available;
+    z-index: 1000;
+    background-color: black;
+    padding: 1%;
+    padding-top: 5rem;
+}
+.listContainer{
+    padding-top: 10rem;
+}
+@media (max-width: 576px) {
+    .g-3 {
+        gap: 1rem; /* Customize the gap for mobile */
+    }
+    .listContainer{
+        padding-top: 20rem;
+    }
+}

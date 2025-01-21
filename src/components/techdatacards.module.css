@@ -1,0 +1,26 @@
+/* style.module.css */
+
+.row {
+    align-items: stretch; /* Ensures columns stretch to the same height */
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column; /* Makes the card content stack vertically */
+    height: 100%; /* Stretches the card to fill its container */
+  }
+  
+  .cardBody {
+    flex-grow: 1; /* Ensures the body stretches within the card */
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column; /* Ensures consistent layout for the column */
+    height: 100%; /* Ensures full height stretching for the column */
+  }
+
+  .descriptionText{
+    font-size: small;
+  }
+  
