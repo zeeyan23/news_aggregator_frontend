@@ -14,8 +14,8 @@ Node.js installation guide
 
 Step 1: Clone the Repository
 Clone the GitHub repository for both the Laravel backend and React.js frontend.
-git clone https://github.com/your-username/newsaggregator-backend.git
-git clone https://github.com/your-username/newsaggregator-frontend.git
+git clone https://github.com/zeeyan23/newsaggregator-backend.git
+git clone https://github.com/zeeyan23/newsaggregator-frontend.git
 
 
 Step 2: Navigate to the Project Directory
